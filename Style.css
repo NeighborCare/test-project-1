@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    
+    
+}   
+header{
+    width:100%;
+    height:100vh;
+    background-image:url(D1.png);  
+    background-repeat: no-repeat;   
+    background-size: 100% 100%;  
+  
+}        
+  
+
+
+
+h1{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-size: 40px;
+    background-color: transparent;  
+    color: rgb(14, 7, 109);
+}
+.cont-img{
+    width: 100%;
+    float: right;  
+    
+}
+.cont-sign-img{
+    width: 70%;  
+    height: 70%;
+    float: right;  
+    margin-top:-80%;  
+    margin-right: 50px;
+    position: relative;  
+    margin-right:-55% ;
+      
+    
+}
+.cont-sign{
+    width: 50%;
+    float: left;
+}
+.cont-signup{
+    width: 50%;
+    float: left;
+}
+.log-box{
+    width: 400px;
+    height: 500px;
+    background: #4c91df;
+    top: 55%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 70px 30px;    
+  
+}
+.signup-box{
+    width: 500px;
+    height: 650px;
+    background: transparent;
+    top: 65%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 70px 30px;  
+   border-color: #000;
+}
+form{
+    background-color: transparent;  
+    color: white;   
+    font-size:  20px; 
+    font-weight: bold;  
+   
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -200px;
+    left: calc(50% - 50px);  
+    margin-left:-350px;
+  
+}
+.sign-pic{
+    width: 120%;  
+    height: 100%;
+    position: relative;
+    top: -30px;
+    left: 80px;
+    filter: contrast(100%);  
+    margin-left: 5%;
+}
+.log-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    background-color: transparent;
+    top: 30px;
+}
+
+.log-box input[type="text"], input[type="password"], input[type="ConPass"]{
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    top: 30px;
+}
+
+.log-box input[type="Submit"]{
+    width: 70%;
+    height: 35px;
+    position: relative;
+    left: 60px;
+    background-color:rgb(6, 6, 112);
+    top: 30px;
+    border-radius: 20px;  
+    border: none;  
+    color: white;  
+    font-size:  20px;  
+    
+    
+}
+
+.forg-pass{
+    position: relative;
+    top: 60px;
+    left: 110px;
+    background-color: transparent; 
+    text-decoration: none;  
+    font-weight: bold;
+}
+.regi{
+    position: relative;
+    top: 80px;
+    left: 140px;
+    background-color: transparent;  
+    text-decoration: none; 
+    font-weight: bold;  
+    
+}
+.regi-sign{
+    position: relative;
+    top: 60px;
+    left: 190px;
+    background-color: #C8E3F6;
+}   
+
+
+
